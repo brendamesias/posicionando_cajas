@@ -11,3 +11,39 @@ body{
   /*outline: 1px solid red;*/
   display: block;
 }
+.one{
+  background-color: red;
+}
+.two{
+  background-color: blue;
+}
+.box{
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+.one .box{
+  background-color: purple;
+}
+.two .box{
+  background-color: green;
+}
+.minibox{
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.one .box .minibox{
+  background-color: yellow;
+}
+.two .box .minibox{
+  background-color: black;
+  bottom: 50%;
+  right: 50%;
+}
